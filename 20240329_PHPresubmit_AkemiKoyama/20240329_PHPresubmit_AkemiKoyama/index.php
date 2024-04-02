@@ -15,7 +15,7 @@
             display: flex;
             justify-content: center; /* Center items horizontally */
             align-items: center; /* Center items vertically */
-            height: 60%; /* Adjust the height as needed */
+            height: 50%; /* Adjust the height as needed */
         }
 
         .div{
