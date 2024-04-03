@@ -26,21 +26,21 @@
 
 <body>
     <center>
-    <h2>明美ストア</h2>
+    <h2>プププランドストア</h2>
 
     <form action="process_order.php" method="post" onsubmit="return validateForm();">
         <div class="flex-container">
             <div>
                 <h3>シチュー</h3>
-                <img src="images/food_creamstew.png" alt="Item 1 Image" style="width: 100px; height: 100px;">
-                <p>かぼちゃを入れるとおいしいけど白くなくなる。</p>
+                <img src="kirby.png" alt="Item 1 Image" style="width: 100px; height: 100px;">
+                <p>ピンクでふわふわな食いしん坊</p>
                 <label for="itemA">個数</label>
                 <input type="number" id="itemA" name="itemA" value="0" min="0"><br><br>
             </div>
             <div>
                 <h3>カレー</h3>
-                <img src="images/food_curryrice.png" alt="Item 2 Image" style="width: 100px; height: 100px;">
-                <p>甘口も辛口もおいしいので中辛が好き。</p>
+                <img src="waddle.png" alt="Item 2 Image" style="width: 100px; height: 100px;">
+                <p>デデデ大王の配下の可愛いやつ</p>
                 <label for="itemB">個数</label>
                 <input type="number" id="itemB" name="itemB" value="0" min="0"><br><br>
             </div>
@@ -62,7 +62,7 @@
             var itemB = document.getElementById("itemB").value;
 
             if (parseInt(itemA) <= 0 && parseInt(itemB) <= 0) {
-                alert("商品を１つ以上選ばないと注文を送信できません。");
+                alert("おともだちをひとり以上選ばないと注文を送信できません。");
                 return false;
             }
 
