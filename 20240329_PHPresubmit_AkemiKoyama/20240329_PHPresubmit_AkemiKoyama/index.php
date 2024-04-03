@@ -4,24 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>プププランドストア</title>
-    <style>
-
-        .body{
-            justify-content: center;
-            justify-items: center;
-        }
-
-        .flex-container {
-            display: flex;
-            justify-content: center; /* Center items horizontally */
-            align-items: center; /* Center items vertically */
-            height: 50%; /* Adjust the height as needed */
-        }
-
-        .div{
-            margin-left: 1%;
-        }
-    </style>
+  <link rel="stylesheet" href="pppland.css">
 </head>
 
 <body>
@@ -56,18 +39,6 @@
         </form>
         </center>
 
-        <script>
-           function validateForm() {
-            var itemA = document.getElementById("itemA").value;
-            var itemB = document.getElementById("itemB").value;
-
-            if (parseInt(itemA) <= 0 && parseInt(itemB) <= 0) {
-                alert("おともだちをひとり以上選ばないと注文を送信できません。");
-                return false;
-            }
-
-            return true;
-            }
-       </script>
+    <script src="blankjs.js" defer></script>
 </body>
 </html>

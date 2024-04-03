@@ -1,0 +1,16 @@
+        .body{
+            justify-content: center;
+            justify-items: center;
+            background-color: lightpink;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: center; /* Center items horizontally */
+            align-items: center; /* Center items vertically */
+            height: 50%; /* Adjust the height as needed */
+        }
+
+        .div{
+            margin-left: 1%;
+        }
