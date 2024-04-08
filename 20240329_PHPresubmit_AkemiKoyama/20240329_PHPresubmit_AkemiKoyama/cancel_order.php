@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['order_id'])) {
     $sql = "DELETE FROM customers WHERE id = $order_id";
 
     if ($conn->query($sql) === TRUE) {
-        echo "注文をキャンセルしました。 <br><br>";
+        echo "注文を削除しました。 <br><br>";
         echo "<a href='orders.php'>従業員ページに戻る</a>";
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
