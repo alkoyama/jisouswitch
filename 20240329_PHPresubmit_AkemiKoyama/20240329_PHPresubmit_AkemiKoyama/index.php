@@ -17,6 +17,7 @@
                 <h3>カービィ</h3>
                 <img src="kirby.png" alt="Item 1 Image" style="width: 100px; height: 100px;">
                 <p>ピンクでふわふわな食いしん坊</p>
+                <span class="price">100円</span>
                 <label for="itemA">個数</label>
                 <input type="number" id="itemA" name="itemA" value="0" min="0"><br><br>
             </div>
@@ -24,6 +25,7 @@
                 <h3>ワドルディ</h3>
                 <img src="waddle.png" alt="Item 2 Image" style="width: 100px; height: 100px;">
                 <p>デデデ大王の配下の可愛いやつ</p>
+                 <span class="price">200円</span>
                 <label for="itemB">個数</label>
                 <input type="number" id="itemB" name="itemB" value="0" min="0"><br><br>
             </div>
@@ -38,7 +40,9 @@
         <input type="submit" value="送信">
         </form>
         </center>
-
+　　　　<footer>
+    <p>© 2023 HAL Laboratory, Inc. All Rights Reserved.</p>
+  </footer
     <script src="blankjs.js" defer></script>
 </body>
 </html>
